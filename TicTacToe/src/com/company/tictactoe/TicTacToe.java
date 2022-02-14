@@ -1,4 +1,4 @@
-package com.mrwayfarout.tictactoe;
+package com.company.tictactoe;
 
 import java.awt.BasicStroke;
 import java.awt.Color;
