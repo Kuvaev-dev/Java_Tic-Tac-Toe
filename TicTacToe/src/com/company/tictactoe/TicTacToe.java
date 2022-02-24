@@ -68,6 +68,8 @@ public class TicTacToe implements Runnable {
 	private int errors = 0;
 	private int firstSpot = -1;
 	private int secondSpot = -1;
+	private int user1Points = 0;
+	private int user2Points = 0;
 
 	// дизайн
 	private Font font = new Font("Verdana", Font.BOLD, 32);
@@ -236,6 +238,7 @@ public class TicTacToe implements Runnable {
 				}
 			}
 		}
+		user1Points += 200;
 	}
 
 	// проверка на победу врага
@@ -255,6 +258,7 @@ public class TicTacToe implements Runnable {
 				}
 			}
 		}
+		user2Points += 200;
 	}
 
 	// ничья
