@@ -23,6 +23,8 @@ import javax.imageio.ImageIO;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 
+import com.company.shop;
+
 public class TicTacToe implements Runnable {
 	// определяем сервер
 	private String ip = "localhost";
@@ -322,6 +324,7 @@ public class TicTacToe implements Runnable {
 	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		TicTacToe ticTacToe = new TicTacToe();
+        Shop shop = new Shop();
 	}
 
 	// создаём отрисовку в окнах
